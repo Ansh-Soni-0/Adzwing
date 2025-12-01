@@ -61,6 +61,28 @@ button {
   scrollbar-color: #58072a #000000;
 }
 
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #e5e7eb; /* Gray-300 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #000000; /* Black */
+  border-radius: 4px;
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #e5e7eb;
+}
+
+
 /* advertise text animation  */
 
 .text-outline {
